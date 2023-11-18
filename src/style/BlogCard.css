@@ -1,0 +1,77 @@
+/* BlogCard.css */
+
+.blog-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .blog-images-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .blog-images {
+    display: inline-flex;
+    gap: 8px;
+  }
+  
+  .empty-blog-images {
+    background-color: #eee;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .blog-title {
+    font-size: 1.5rem;
+    margin-top: 16px;
+  }
+  
+  .blog-content {
+    margin-top: 8px;
+  }
+  
+  .blog-author {
+    margin-top: 8px;
+    font-style: italic;
+  }
+  
+  .blog-images {
+    margin-bottom: 16px;
+  }
+  
+  .blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .blog-comments,
+  .blog-ratings {
+    margin-top: 16px;
+  }
+  
+  .comments-heading,
+  .ratings-heading {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .comments-list,
+  .ratings-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-item,
+  .rating-item {
+    margin-bottom: 8px;
+  }
+  
+  .comment-author,
+  .rating-author {
+    font-weight: bold;
+    margin-right: 4px;
+    color: #333;
+  }
+  

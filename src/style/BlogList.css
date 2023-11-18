@@ -1,0 +1,34 @@
+.Link-Heading{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: #ab4747;
+    }
+}
+
+/* .blog-list {
+    margin: 0 auto; 
+  } */
+  
+  .blog-cards-container {
+    list-style: none;
+    padding: 10;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  }
+  
+  .blog-card-wrapper {
+    margin: 10px; /* Add some margin for spacing */
+  }
+
+  .blog-list-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    color: #ab4747;
+  }
